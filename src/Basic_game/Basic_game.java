@@ -6,7 +6,7 @@ public class Basic_game {
 	
 	static Scanner sc = new Scanner(System.in);
 	public static Character loadCharacter(Scanner sc) { 
-		System.out.println("Pick name: ");
+		System.out.println("Pick a name: ");
 		String name = sc.nextLine();
 		System.out.println("Initial strength: ");
 		int strength = Integer.parseInt(sc.nextLine());
